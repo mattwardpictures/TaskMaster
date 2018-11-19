@@ -44,6 +44,13 @@ public class Task {
 		this.users = users;
 	}
 
+	// Constructor for addNewTask
+	public Task(String taskdescription, Date taskdeadline, User users) {
+		this.taskdescription = taskdescription;
+		this.taskdeadline = taskdeadline;
+		this.users = users;
+	}
+
 	public Integer getTaskid() {
 		return taskid;
 	}

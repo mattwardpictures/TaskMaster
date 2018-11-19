@@ -77,9 +77,6 @@
 						<br>
 						<input type="date" class="form-control" name="taskdeadline" placeholder="YYYY-MM-DD">
 						<br>
-						<label>Complete? (or not?):</label>
-						<input type="checkbox" class="form-control" name="taskcomplete" onclick="myFunction()">
-						<br>
 						<input class="btn btn-primary" type="submit" value="Add">
 					</form>
 					
